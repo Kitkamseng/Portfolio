@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'bill corp nar book';
+    src: url('billcorpnar-book.eot');
+    src: local('bill corp nar book'), local('billcorpnar-book'),
+        url('billcorpnar-book.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-book.woff2') format('woff2'),
+        url('billcorpnar-book.woff') format('woff'),
+        url('billcorpnar-book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar hairline';
+    src: url('billcorpnar-hairline.eot');
+    src: local('bill corp nar hairline'), local('billcorpnar-hairline'),
+        url('billcorpnar-hairline.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-hairline.woff2') format('woff2'),
+        url('billcorpnar-hairline.woff') format('woff'),
+        url('billcorpnar-hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar eight';
+    src: url('billcorpnar-eight.eot');
+    src: local('bill corp nar eight'), local('billcorpnar-eight'),
+        url('billcorpnar-eight.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-eight.woff2') format('woff2'),
+        url('billcorpnar-eight.woff') format('woff'),
+        url('billcorpnar-eight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-bold.eot');
+    src: local('bill corp nar bold'), local('billcorpnar-bold'),
+        url('billcorpnar-bold.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-bold.woff2') format('woff2'),
+        url('billcorpnar-bold.woff') format('woff'),
+        url('billcorpnar-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-light.eot');
+    src: local('bill corp nar light'), local('billcorpnar-light'),
+        url('billcorpnar-light.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-light.woff2') format('woff2'),
+        url('billcorpnar-light.woff') format('woff'),
+        url('billcorpnar-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-medium.eot');
+    src: local('bill corp nar medium'), local('billcorpnar-medium'),
+        url('billcorpnar-medium.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-medium.woff2') format('woff2'),
+        url('billcorpnar-medium.woff') format('woff'),
+        url('billcorpnar-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar roman';
+    src: url('billcorpnar-roman.eot');
+    src: local('bill corp nar roman'), local('billcorpnar-roman'),
+        url('billcorpnar-roman.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-roman.woff2') format('woff2'),
+        url('billcorpnar-roman.woff') format('woff'),
+        url('billcorpnar-roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar four';
+    src: url('billcorpnar-four.eot');
+    src: local('bill corp nar four'), local('billcorpnar-four'),
+        url('billcorpnar-four.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-four.woff2') format('woff2'),
+        url('billcorpnar-four.woff') format('woff'),
+        url('billcorpnar-four.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-semibold.eot');
+    src: local('bill corp nar semibold'), local('billcorpnar-semibold'),
+        url('billcorpnar-semibold.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-semibold.woff2') format('woff2'),
+        url('billcorpnar-semibold.woff') format('woff'),
+        url('billcorpnar-semibold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-extrabold.eot');
+    src: local('bill corp nar extrabold'), local('billcorpnar-extrabold'),
+        url('billcorpnar-extrabold.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-extrabold.woff2') format('woff2'),
+        url('billcorpnar-extrabold.woff') format('woff'),
+        url('billcorpnar-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-extralight.eot');
+    src: local('bill corp nar extralight'), local('billcorpnar-extralight'),
+        url('billcorpnar-extralight.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-extralight.woff2') format('woff2'),
+        url('billcorpnar-extralight.woff') format('woff'),
+        url('billcorpnar-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-ultralight.eot');
+    src: local('bill corp nar ultralight'), local('billcorpnar-ultralight'),
+        url('billcorpnar-ultralight.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-ultralight.woff2') format('woff2'),
+        url('billcorpnar-ultralight.woff') format('woff'),
+        url('billcorpnar-ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar super';
+    src: url('billcorpnar-super.eot');
+    src: local('bill corp nar super'), local('billcorpnar-super'),
+        url('billcorpnar-super.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-super.woff2') format('woff2'),
+        url('billcorpnar-super.woff') format('woff'),
+        url('billcorpnar-super.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar';
+    src: url('billcorpnar-thin.eot');
+    src: local('bill corp nar thin'), local('billcorpnar-thin'),
+        url('billcorpnar-thin.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-thin.woff2') format('woff2'),
+        url('billcorpnar-thin.woff') format('woff'),
+        url('billcorpnar-thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar two';
+    src: url('billcorpnar-two.eot');
+    src: local('bill corp nar two'), local('billcorpnar-two'),
+        url('billcorpnar-two.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-two.woff2') format('woff2'),
+        url('billcorpnar-two.woff') format('woff'),
+        url('billcorpnar-two.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bill corp nar six';
+    src: url('billcorpnar-six.eot');
+    src: local('bill corp nar six'), local('billcorpnar-six'),
+        url('billcorpnar-six.eot?#iefix') format('embedded-opentype'),
+        url('billcorpnar-six.woff2') format('woff2'),
+        url('billcorpnar-six.woff') format('woff'),
+        url('billcorpnar-six.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
