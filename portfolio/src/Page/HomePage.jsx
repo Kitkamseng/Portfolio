@@ -1,14 +1,25 @@
 import React, { useEffect, useState } from 'react'
+import Modal from 'react-modal'; 
 import '../Styling/HomePage.css';
 import Header from '../Components/Header';
 import ProfileIcon from '../images/ProfileIcon.jpeg';
 import AnimatedLetters from '../Components/AnimatedLetters';
+import SkillsInfo from '../Components/SkillsInfo';
 
 function HomePage() {
 
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['K', 'a', 'm', ' ', 'S', 'e', 'n', 'g'];
     const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', '-', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', ' ', '/', ' ', 'W', 'e', 'd', '-', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', ]
+
+    const [isOpen, setIsOpen] = useState(false);
+    const openModal = () => {
+        setIsOpen(true);
+    }
+
+    const closeModal = () => {
+        setIsOpen(false);
+    }
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -24,6 +35,7 @@ function HomePage() {
         <>
             <Header />
             <div className='Home-Container'>
+                {/* Home Page Segment */}
                 <div className='Home-Box' id='home'>
                     <div className='Home-segments'>
                         
@@ -53,13 +65,65 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    <div className='Home-segments'>
+                </div>
+
+
+                {/* About Segment */}
+                <div className='About-Box' id='about'>
+                    <div className='left-container'>
+                        <div className='About-Container'>
+                            <div className='About-content-box'>
+                                <div className='About-title'>
+                                    About Me
+                                </div>
+                                <div className='About-Content'>
+                                As an innovative tech mind, the world of programming has always intrigued me. 
+                                Starting my programming journey on virtual platforms, it has allowed me to solve 
+                                exciting challenges and problems. Since then, I have been on the hunt for new 
+                                technologies and learning about upcoming frameworks and languages that are able 
+                                to solve issues and create solutions more efficiently and effectively. 
+                                Exposing myself to different coding languages and frameworks, it is truly a 
+                                blessing that I am given the opportunity to be on the path of a software developer
+                                where I can enable myself to learn and discover more ways and means to fuel my 
+                                passion in becoming a better developer.
+                                </div>
+                            </div>
+                            <button 
+                                className='skills-button'
+                                onClick={openModal}
+                            >
+                                Skills
+                            </button>
+                            <div className='modal-info'>
+                                <Modal
+                                    isOpen={isOpen}
+                                    onRequestClose={closeModal}
+                                    className='modal'
+                                >
+                                    <SkillsInfo />
+                                    <span 
+                                        class="close"
+                                        onClick={closeModal}
+                                    >&times;
+                                    </span>
+                                </Modal>
+                            </div>
+                        </div>
                         
                     </div>
+                    <div className='right-container'>
+                        Right
+                    </div>
                 </div>
-                <div className='About-Box' id='about'>
-                    About
-                </div>
+
+
+
+
+
+
+
+
+
                 <div className='Contact-Box' id='contact'>
                     Contact
                 </div>
