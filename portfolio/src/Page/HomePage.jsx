@@ -5,6 +5,7 @@ import Header from '../Components/Header';
 import ProfileIcon from '../images/ProfileIcon.jpeg';
 import AnimatedLetters from '../Components/AnimatedLetters';
 import SkillsInfo from '../Components/SkillsInfo';
+import AboutImage from '../Components/AboutImage';
 
 function HomePage() {
 
@@ -112,7 +113,7 @@ function HomePage() {
                         
                     </div>
                     <div className='right-container'>
-                        Right
+                        <AboutImage />
                     </div>
                 </div>
 
