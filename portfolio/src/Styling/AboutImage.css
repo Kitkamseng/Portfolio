@@ -1,0 +1,26 @@
+.image-container{
+    /* border-color: white;
+    border-width: 2px;
+    border-style: solid; */
+
+    position: relative;
+    width: max-content;
+}
+
+.image-box-one{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%) rotate(-10deg);
+}
+
+.image-box-one img{
+    width: 80%;
+    display: block;
+}
+
+.image-container img:last-child {
+    width: 60%;
+    transform: translateX(50%) rotate(10deg); 
+    position: relative; 
+  }
