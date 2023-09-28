@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import '../Styling/Header.css';
 import GithubIcon from '../images/Github.png';
+import LinkedInIcon from '../images/LinkedInIcon.png';
 
 function Header() {
 
@@ -41,6 +42,9 @@ function Header() {
             <div className='Header-Boxes'>
                 <div className='Header-Github'>
                     <a href='https://github.com/Kitkamseng'><img src={GithubIcon} alt='github-logo'/></a>
+                </div>
+                <div className='Header-LinkedIn'>
+                  <a href='https://www.linkedin.com/in/kit-kam-seng-709a321a6/'><img src={LinkedInIcon} alt='linkedIn-logo' /></a>
                 </div>
             </div>
 
