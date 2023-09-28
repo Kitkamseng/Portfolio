@@ -6,6 +6,8 @@
 
     width: 80%;
 
+    font-family: 'GothamBold';
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +16,11 @@
 .skill-title{
     /* border-color: white;
     border-width: 2px;
-    border-style: solid; */
+    border-style: solid;
+    border-radius: 100px; */
+
+    border-bottom: 2px solid white; 
+
 
     color: white;
     font-size: 35px;
@@ -23,13 +29,78 @@
     justify-content: center;
     align-items: center;
 
+    margin: 10px;
+    margin-bottom: 25px;
+
+    width: 90px;
+    height: 90px;
+}
+
+.skill-attribute-box{
+    /* border-bottom: 2px solid white;  */
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.attribute-Rone{
+    /* border-color: white;
+    border-width: 2px;
+    border-style: solid; */
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+}
+
+.skill-box-one{
+    /* border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; */
+
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+
+.skill-box-one img{
     width: 20%;
 }
 
-.skill-attribute{
+.box-one-title{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.animated-progress{
     border-color: white;
     border-width: 2px;
     border-style: solid;
 
-    width: 100%;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 2px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
 }
+
+.animated-progress span {
+    background-color: #E2E0DE;
+    height: 100%;
+    display: block;
+    width: 0;
+    /* color: rgb(255, 251, 251); */
+    color: black;
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
