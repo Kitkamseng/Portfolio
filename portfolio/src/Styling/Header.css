@@ -58,6 +58,12 @@
 
 .Header-Github img{
     margin: 10px;
-    
+    margin-top: 15px;
     max-width: 2.5em;
+}
+
+.Header-LinkedIn img{
+    margin: 10px;
+
+    width: 3em;
 }
