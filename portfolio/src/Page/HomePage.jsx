@@ -7,6 +7,7 @@ import AnimatedLetters from '../Components/AnimatedLetters';
 import SkillsInfo from '../Components/SkillsInfo';
 import AboutImage from '../Components/AboutImage';
 import Resume from '../images/Resume.pdf';
+import ContactPage from '../Components/ContactPage';
 
 function HomePage() {
 
@@ -131,14 +132,8 @@ function HomePage() {
 
 
 
-
-
-
-
-
-
                 <div className='Contact-Box' id='contact'>
-                    Contact
+                    <ContactPage />
                 </div>
             </div>
         </>
