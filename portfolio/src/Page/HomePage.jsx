@@ -6,6 +6,7 @@ import ProfileIcon from '../images/ProfileIcon.jpeg';
 import AnimatedLetters from '../Components/AnimatedLetters';
 import SkillsInfo from '../Components/SkillsInfo';
 import AboutImage from '../Components/AboutImage';
+import Resume from '../images/Resume.pdf';
 
 function HomePage() {
 
@@ -21,6 +22,7 @@ function HomePage() {
     const closeModal = () => {
         setIsOpen(false);
     }
+
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -89,12 +91,22 @@ function HomePage() {
                                 passion in becoming a better developer.
                                 </div>
                             </div>
-                            <button 
-                                className='skills-button'
-                                onClick={openModal}
-                            >
-                                Skills
-                            </button>
+                            <div className='button-container'>
+                                <button 
+                                    className='skills-button'
+                                    onClick={openModal}
+                                >
+                                    Skills
+                                </button>
+                                <a href={Resume} download="resume">
+                                    <button 
+                                        className='skills-button'
+                                    >
+                                        Resume
+                                    </button>
+                                </a>
+                            </div>
+                            
                             <div className='modal-info'>
                                 <Modal
                                     isOpen={isOpen}
