@@ -170,7 +170,7 @@ function SkillsInfo() {
                 <div className='skill-box-one'>
                     <img src={GitIcon} alt='js-icon' />
                     <div className='box-one-title'>
-                        Git
+                        Github
                     </div>
                 </div>
                 <div className='animated-progress progess-green'>
